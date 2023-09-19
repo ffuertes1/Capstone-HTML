@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ececec;
+    overflow: hidden;
+    padding: 0; /* Remove default padding */
+}
+
+
+.nav-block {
+    display: block; /* Display blocks as vertical items */
+    color: white;
+    text-align: left; /* Align text to the left */
+    padding: 15px; /* Adjust padding as needed */
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #949494;
+    margin: 5px 0; /* Add vertical spacing between blocks */
+}
+
+/* Your vertical navbar styles */
+.page-content {
+    display: flex;
+ 
+}
+
+/* Content Section Styles */
+.content-section {
+    display: flex;
+    justify-content: space-between; /* Arrange content side by side */
+    align-items: center; /* Center content vertically */
+    padding: px; /* Adjust padding as needed */
+}
+
+.content-image {
+    flex: 1; /* Equal distribution of space for images */
+    margin: 0 10px; /* Adjust margin between images */
+}
+
